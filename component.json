@@ -1,0 +1,19 @@
+{
+  "name": "home",
+  "description": "home component",
+  "local": [],
+  "styles": [
+    "styles.css"
+  ],
+  "scripts": [
+    "index.js"
+  ],
+  "templates": [
+    "template.html"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "serandomps/dust": "master",
+    "serandomps/serand": "master"
+  }
+}
