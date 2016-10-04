@@ -5,7 +5,7 @@ dust.loadSource(dust.compile(require('./template'), 'home'));
 
 module.exports = function (sandbox, fn, options) {
     dust.render('home', {
-        username: options.username
+        title: options.title
     }, function (err, out) {
         if (err) {
             return;

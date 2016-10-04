@@ -1,0 +1,16 @@
+.home {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.home .btn-default {
+    background: #54BC75;
+}
+
+.home .cars {
+    background: #6E9BB7;
+}
+
+.home .medkit {
+    background: #B10F2E;
+}
