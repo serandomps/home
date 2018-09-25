@@ -3,7 +3,7 @@ var serand = require('serand');
 
 dust.loadSource(dust.compile(require('./template'), 'home'));
 
-module.exports = function (sandbox, options, done) {
+module.exports = function (ctx, sandbox, options, done) {
     dust.render('home', {
         title: options.title
     }, function (err, out) {
