@@ -1,16 +1,16 @@
-.home {
+.sandbox-home {
     margin-top: 50px;
     margin-bottom: 25px;
 }
 
-.home .btn-default {
+.sandbox-home .btn-default {
     background: #54BC75;
 }
 
-.home .cars {
+.sandbox-home .cars {
     background: #6E9BB7;
 }
 
-.home .medkit {
+.sandbox-home .medkit {
     background: #B10F2E;
 }
