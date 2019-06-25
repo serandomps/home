@@ -5,9 +5,9 @@ dust.loadSource(dust.compile(require('./template'), 'home'));
 
 module.exports = function (ctx, container, options, done) {
     var sandbox = container.sandbox;
-    dust.render('home', {
+    dust.render('home', serand.pack({
         title: options.title
-    }, function (err, out) {
+    }, container), function (err, out) {
         if (err) {
             return done(err);
         }
